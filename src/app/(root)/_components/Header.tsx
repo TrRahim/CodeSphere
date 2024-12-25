@@ -72,8 +72,8 @@ async function Header() {
           </nav>
         </div>
 
-        <div className="flex items-center gap-4 flex-wrap jsutify-center">
-          <div className="flex items-center gap-3 max-w-full mx-auto">
+        <div className="flex items-center gap-4 flex-wrap justify-center">
+          <div className="flex items-center justify-center gap-3 max-w-[80%] mx-auto">
             <ThemeSelector />
             <LanguageSelector hasAccess={Boolean(convexUser?.isPro)} />
           </div>

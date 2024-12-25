@@ -69,7 +69,7 @@ function EditorPanel() {
               </p>
             </div>
           </div>
-          <div className="flex items-center gap-3 flex-wrap">
+          <div className="flex items-center justify-center gap-3 flex-wrap">
             {/* Font Size Slider */}
             <div className="flex items-center gap-3 px-3 py-2 bg-[#1e1e2e] rounded-lg ring-1 ring-white/5">
               <TypeIcon className="size-4 text-gray-400" />
